@@ -944,13 +944,19 @@ dependencies = [
 name = "ks-esp32c6"
 version = "0.1.0"
 dependencies = [
+ "critical-section",
  "esp-alloc",
  "esp-backtrace",
  "esp-bootloader-esp-idf",
  "esp-hal",
  "esp-println",
  "esp32c6 0.25.0",
+ "ks-vm",
 ]
+
+[[package]]
+name = "ks-vm"
+version = "0.5.0"
 
 [[package]]
 name = "libc"
